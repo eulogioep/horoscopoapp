@@ -1,22 +1,23 @@
-package com.eulogioep.horoscopoapp.ui.horoscope
+package com.eulogioep.horoscopoapp.ui.luck
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.eulogioep.horoscopoapp.databinding.FragmentHoroscopeBinding
+import com.eulogioep.horoscopoapp.databinding.FragmentLuckBinding
 
-class HoroscopeFragment : Fragment() {
+class LuckFragment : Fragment() {
 
-    private var _binding: FragmentHoroscopeBinding? = null
+    private var _binding: FragmentLuckBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentHoroscopeBinding.inflate(layoutInflater, container, false)
+        _binding = FragmentLuckBinding.inflate(layoutInflater, container, false)
         return binding.root
     }
+
 }
