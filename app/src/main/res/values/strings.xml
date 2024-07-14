@@ -1,9 +1,25 @@
 <resources>
-    <string name="app_name">Horoscopo App</string>
+    <string name="app_name">Horóscopo App</string>
 
     <string name="hello_blank_fragment">Hola Fragmento en Blanco</string>
 
-    <string name="horoscope">Horoscopo</string>
+    <!--    BottomBar-->
+    <string name="horoscope">Horóscopo</string>
     <string name="palmistry">Quiromancia</string>
     <string name="luck">Suerte</string>
+
+    <!--    Horoscope-->
+    <string name="aries">Aries</string>
+    <string name="taurus">Tauro</string>
+    <string name="gemini">Géminis</string>
+    <string name="cancer">Cáncer</string>
+    <string name="leo">Leo</string>
+    <string name="virgo">Virgo</string>
+    <string name="libra">Libra</string>
+    <string name="scorpio">Escorpio</string>
+    <string name="sagittarius">Sagitario</string>
+    <string name="capricorn">Capricornio</string>
+    <string name="aquarius">Acuario</string>
+    <string name="pisces">Piscis</string>
+
 </resources>
