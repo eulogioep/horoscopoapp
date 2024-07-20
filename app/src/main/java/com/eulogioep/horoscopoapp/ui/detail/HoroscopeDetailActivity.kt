@@ -20,7 +20,8 @@ class HoroscopeDetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityHoroscopeDetailBinding.inflate(layoutInflater)
-        setContentView(R.layout.activity_horoscope_detail)
+        setContentView(binding.root)
+        args.type
 
     }
 }
